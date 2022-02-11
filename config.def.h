@@ -6,10 +6,10 @@ static const unsigned int gappx     = 20;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "SauceCodePro Nerd Font Mono:pixelsize=25:antialias=true:autohint=true"
+static const char *fonts[]          = { "SauceCodePro Nerd Font Mono:pixelsize=20:antialias=true:autohint=true"
                                         //"JoyPixels:pixelsize=15:antialias=true:autohint=true"  
                                         }; 
-static const char dmenufont[]       = "SauceCodePro Nerd Font Mono:pixelsize=25:antialias=true:autohint=true"; 
+static const char dmenufont[]       = "SauceCodePro Nerd Font Mono:pixelsize=20:antialias=true:autohint=true"; 
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
@@ -73,7 +73,7 @@ static const char *web[] = { "vivaldi-stable", NULL };
 static const char *audio[] = { "pavucontrol", NULL };
 static const char *clipmenu[] = { "clipmenu", "-fn", dmenufont, NULL };
 static const char scratchpadname[] = "scratchpad";
-static const char *scratchpadcmd[] = { "st", "-t", scratchpadname, "-g", "120x34", NULL };
+static const char *scratchpadcmd[] = { "st", "-t", scratchpadname, "-g", "70x20", NULL };
 #include <X11/XF86keysym.h>
 
 static Key keys[] = {
