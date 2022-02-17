@@ -22,7 +22,6 @@ static const char *colors[][3]      = {
 };
 
 static const char *const autostart[] = {
-	"rtouchpad", NULL,
 	NULL /* terminate */
 };
 
